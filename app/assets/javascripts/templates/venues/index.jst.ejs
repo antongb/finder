@@ -1,0 +1,9 @@
+<table>
+  <% venues.each(function(venue){ %>
+  <tr>
+    <td style="border: 1px solid"> <%= venue.attributes.name %> </td>
+    <td style="border: 1px solid"> <%= venue.attributes.address %> </td>
+    <td style="border: 1px solid"> <%= venue.attributes.city %> </td>
+  </tr>
+  <% }) %>
+</table>
